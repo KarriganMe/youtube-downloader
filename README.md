@@ -1,15 +1,26 @@
-# Youtube Video Downloader
-Created by <a href="https://github.com/KmeKerrigan">Kerrigan</a>
+# YouTube Video Downloader  
+**Created by [Kerrigan](https://github.com/KmeKerrigan)**
 
-You can download PE file in <a href="https://github.com/KarriganMe/youtube-downloader/releases">releases</a>.
+**Download the installer** from the [releases page](https://github.com/KarriganMe/youtube-downloader/releases).
 
-You just have to paste a link, choose a quality, choose if you want to have only video, only audio or both and push a Download button.
-If there is no quality that you have chosen, it will download a lower quality (maximum possible).
+## How to Use
+1. Paste a YouTube URL
+2. Select your preferred quality
+3. Choose content type: Video only, Audio only, or Both
+4. Click **Download**
 
-IMPORTANT!
-I advice to put it in a folder, i do not suggest you to leave this file in a Desktop, it will download additional file. This file is FFMPEG.exe. YOU CAN NOT DELETE IT! 
-But even if you deleted it, it will check if file is located at the same folder as file itself is, if not, it will download it.
-You can save it to anywhere, just your choice.
-### Advanced
-Coded on Python. Using yt-dlp, tkinter and customtkinter. Used Pyinstaller to compile.
-ffmpeg needen!
+*If your selected quality isn't available, the app will automatically download the highest possible quality.*
+
+## Reporting Issues
+If you encounter any bugs:
+1. Right-click your shortcut → **Open file location**
+2. Locate and open `youtube_downloader.log`
+3. Copy the contents and send it to us
+
+*Discord preferred for support!*
+
+## Technical Details
+- **Language**: Python
+- **Libraries**: yt-dlp, tkinter, customtkinter
+- **Build Tools**: PyInstaller (compilation), Inno Setup (installer)
+- **Features**: Automatic ffmpeg download
