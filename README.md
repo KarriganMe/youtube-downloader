@@ -2,6 +2,7 @@
 **Created by [Kerrigan](https://github.com/KmeKerrigan)**
 
 **Download the installer** from the [releases page](https://github.com/KarriganMe/youtube-downloader/releases).
+
 **Documentation** You can find it [here](https://docs.karrigan.me/books/youtube-video-downloader/page/overall#bkmrk-installation)
 
 ## How to Use
@@ -25,4 +26,5 @@ If you encounter any bugs:
 - **Libraries**: yt-dlp, tkinter, customtkinter
 - **Build Tools**: PyInstaller (compilation), Inno Setup (installer)
 - **Important**: ffmpeg is bundled
+
 
